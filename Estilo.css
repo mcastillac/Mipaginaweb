@@ -1,0 +1,48 @@
+body{
+    background-color: #f5f3f3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.perfil {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 20px 50px;
+}
+
+.perfil img {
+    flex-shrink: 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.perfil p {
+    text-align: justify;
+    margin: 0;
+}
+
+h1{
+    color: #1b035ef8;
+    text-align: center;
+}
+h2{
+    color: #1b035ef8;
+    text-align: left;
+}
+fieldset{
+    border: 1px solid #3b03d6;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead th {
+    background-color: #3b03d6;
+    color: white;
+}
+
